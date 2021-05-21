@@ -3,4 +3,6 @@
 # Licensed under the MIT License.
 # ------------------------------------------------------------
 
-FROM codemonkeyleet/dapr-dev:0.1.2
+FROM codemonkeyleet/dapr-dev:0.1.3
+
+VOLUME [ "/go/src/github.com/dapr/dapr" ]
